@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+PRODUCT_PACKAGES += \
+    bssl
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
