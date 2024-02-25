@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/kebab/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Import vendor/extras if exists
+-include vendor/extra/product.mk
+
 TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := lineage_kebab
