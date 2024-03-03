@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    ShishufiedWalls
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
